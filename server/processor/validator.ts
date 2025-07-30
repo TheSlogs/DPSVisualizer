@@ -1,6 +1,5 @@
 import { GameStartType, MetadataType, SlippiGame, StatsType } from "@slippi/slippi-js"
 import { getCurrentCode } from "../user/userProfileManager";
-import { get } from "http";
 
 export function validateSingles(game: SlippiGame): boolean {
     const tag = getCurrentCode();
